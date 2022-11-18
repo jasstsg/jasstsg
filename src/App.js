@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>This page is under construction.</p>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>See this <a href="https://github.com/gitname/react-gh-pages">guide</a> for how this page was made.</p>
       </header>
     </div>
   );
