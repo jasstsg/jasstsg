@@ -1,0 +1,16 @@
+.header {
+
+    font-size: 2rem;
+
+    nav {
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+            gap: 4rem;
+            justify-content: center;
+
+        }
+    }
+} 

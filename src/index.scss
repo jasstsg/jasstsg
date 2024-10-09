@@ -1,0 +1,37 @@
+:root {
+  /* FONTS */
+  --font-space-mono: "Space Mono", monospace;
+
+  /* COLOURS */
+  --absolute-black: #000000;
+
+  /* https://color.adobe.com/search?q=dragon */
+  --dragon-beige: #D9AE89;
+  --dragon-brown: #594A3C;
+  --dragon-cream: #F2E3D5;
+  --dragon-red-light: #F24535;
+  --dragon-red-dark: #BF463B;
+
+  /* https://color.adobe.com/search?q=red%20and%20black */
+  --red: #733641;
+  --black: #0D090A;
+  --charcoal: #404040;
+  --cream: #D6D9BF;
+  --gray: #8C8870;
+
+}
+
+body {
+  font-family: var(--font-space-mono);
+  color: var(--cream);
+  background-color: var(--black);
+}
+
+a {
+  color: var(--red);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--gray);
+  }
+}

@@ -1,0 +1,15 @@
+.body {
+    font-size: 1.5rem;
+
+    .h-line {
+        margin: 1rem 0 1rem 0;
+        height: 2px;
+        background: var(--charcoal);
+        background: linear-gradient(90deg,
+            var(--gray) 0%, 
+            var(--charcoal) 25%, 
+            var(--charcoal) 75%,
+            var(--red) 100%
+        ); 
+    }
+} 
