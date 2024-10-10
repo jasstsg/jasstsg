@@ -1,13 +1,17 @@
 .body {
     font-size: 1.5rem;
 
+    h2 {
+        text-align: left;
+    }
+
     .h-line {
         margin: 1rem 0 1rem 0;
         height: 2px;
         background: var(--charcoal);
         background: linear-gradient(90deg,
             var(--black) 0%, 
-            var(--charcoal) 90%,
+            var(--charcoal) 50%,
             var(--red) 100%
         ); 
     }

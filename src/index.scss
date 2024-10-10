@@ -25,6 +25,16 @@ body {
   font-family: var(--font-space-mono);
   color: var(--cream);
   background-color: var(--black);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 a {
