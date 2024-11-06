@@ -11,13 +11,16 @@
   --absolute-white: #FFFFFF;
 
   --highlight: var(--red);
-  --link: var(--red);
-  --link-hover: var(--gray);
-  --background1: var(--black);
+  --link: var(--red-light);
+  --link-hover: var(--red);
+  --foreground1: var(--absolute-black);
+  --foreground2: var(--cream);
+  --background1: var(--absolute-white);
   --background2: var(--black);
   --card-background: var(--charcoal);
-  --foreground: var(--cream);
   
+  --red-light: #953641;
+
   /* https://color.adobe.com/search?q=red%20and%20black */
   --red: #733641;
   --black: #0D090A;
@@ -40,7 +43,7 @@
   --link-hover: var(--hotmag);
   --background1: var(--black);
   --background2: var(--dkblue);
-  --foreground: var(--white);
+  --foreground1: var(--white);
   */
   /* https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
 
@@ -73,14 +76,17 @@
 body {
   max-width: 1200px;
   font-family: var(--primary-font);
-  color: var(--foreground);
+  color: var(--foreground1);
   background-color: var(--background1);
   margin: 0 auto;
 }
 
 h1 {
   font-size: 2rem;
-  color: var(--absolute-white);
+}
+
+h2 {
+  color: var(--red)
 }
 
 

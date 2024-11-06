@@ -13,7 +13,7 @@ function Project(props: {props: ProjectProps}){
                     <a href={record.siteLink}
                         target="_blank"
                         rel="noreferrer">   
-                            <span className="fa-solid fa-link"></span>
+                            <span className="fa-solid fa-globe"></span>
                             &nbsp;
                             {record.siteLink}
                     </a>

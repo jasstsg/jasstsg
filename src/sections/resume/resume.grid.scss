@@ -1,0 +1,20 @@
+section#resume .header > .left{
+    grid-area: resume-header-left;
+}
+
+section#resume .header > .right{
+    grid-area: resume-header-right;
+}
+
+section#resume > .body {
+    grid-area: resume-body;
+}
+
+section#resume .header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "resume-header-left resume-header-right"
+        "resume-body resume-body";
+}
