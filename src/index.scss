@@ -1,17 +1,23 @@
 :root {
   /* FONTS */
   --font-space-mono: "Space Mono", monospace;
+  --font-oxanium: "Oxanium", sans-serif;
+  --font-noto-sanes: "Noto Sans", sans-serif;
+
+  --primary-font: var(--font-noto-sanes);
 
   /* COLOURS */
   --absolute-black: #000000;
+  --absolute-white: #FFFFFF;
 
-  /* https://color.adobe.com/search?q=dragon */
-  --dragon-beige: #D9AE89;
-  --dragon-brown: #594A3C;
-  --dragon-cream: #F2E3D5;
-  --dragon-red-light: #F24535;
-  --dragon-red-dark: #BF463B;
-
+  --highlight: var(--red);
+  --link: var(--red);
+  --link-hover: var(--gray);
+  --background1: var(--black);
+  --background2: var(--black);
+  --card-background: var(--charcoal);
+  --foreground: var(--cream);
+  
   /* https://color.adobe.com/search?q=red%20and%20black */
   --red: #733641;
   --black: #0D090A;
@@ -19,29 +25,70 @@
   --cream: #D6D9BF;
   --gray: #8C8870;
 
+  /* Jen Kramer's colours */
+  /*
+  --black: #171321;
+  --dkblue: #0d314b;
+  --plum: #4b0d49;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --aqua: #86fbfb;
+  --white: #f7f8fa;
+
+  --highlight: var(--aqua);
+  --link: var(--magenta);
+  --link-hover: var(--hotmag);
+  --background1: var(--black);
+  --background2: var(--dkblue);
+  --foreground: var(--white);
+  */
+  /* https://coolors.co/palette/2b2d42-8d99ae-edf2f4-ef233c-d90429
+
+  // --blue-navy: #2B2D42;
+  // --gray: #8D99AE;
+  // --white: #EDF2F4;
+  // --red-light: #EF233C;
+  // --red: #D90429;
+   */
+  /* https://coolors.co/palette/8c1c13-bf4342-e7d7c1-a78a7f-735751 
+  // --red-dark: #8C1C13;
+  // --red-light: #BF4342;
+  // --beige: #E7D7C1;
+  // --tan-light: #A78A7F;
+  // --tan-dark: #735751;
+  */
+  /* https://color.adobe.com/search?q=dragon
+  // --beige: #D9AE89;
+  // --brown: #594A3C;
+  // --cream: #F2E3D5;
+  // --red-light: #F24535;
+  // --red-dark: #BF463B;
+  */
+}
+
+.header, .card, .footer {
+  margin: 0 auto;
 }
 
 body {
-  font-family: var(--font-space-mono);
-  color: var(--cream);
-  background-color: var(--black);
   max-width: 1200px;
+  font-family: var(--primary-font);
+  color: var(--foreground);
+  background-color: var(--background1);
   margin: 0 auto;
 }
 
 h1 {
   font-size: 2rem;
+  color: var(--absolute-white);
 }
 
-h2 {
-  font-size: 1.5rem;
-}
 
 a {
-  color: var(--red);
+  color: var(--link);
   text-decoration: none;
 
   &:hover {
-    color: var(--gray);
+    color: var(--link-hover);
   }
 }

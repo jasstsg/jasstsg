@@ -1,14 +1,15 @@
 .header {
-
-    font-size: 2rem;
-
+    
     nav {
+        padding-top: 0.5rem;
+        font-size: 1.2rem;
+        font-weight: bold;
 
         ul {
             display: flex;
             flex-direction: row;
             list-style-type: none;
-            gap: 4rem;
+            gap: 5rem;
             justify-content: center;
         }
     }

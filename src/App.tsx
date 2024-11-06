@@ -1,15 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Header from './components/header/Header';
-import Body from './components/body/Body';
-import Footer from './components/footer/Footer';
+import Header from './sections/header/Header';
+import Body from './sections/body/Body';
+import Footer from './sections/footer/Footer';
+import Timeline from './sections/timeline/Timeline';
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Body></Body>
+      <Timeline></Timeline>
       <Footer></Footer>
     </div>
   );

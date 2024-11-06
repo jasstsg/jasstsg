@@ -1,0 +1,204 @@
+{
+    "work": [
+        {
+            "institution" : "Sitecore",
+            "title" : "Solutions/Technical Consultant, Professional Services",
+            "location" : "Remote",
+            "dateStarted" : "Nov 2022",
+            "dateEnded" : "Oct 2024",
+            "description" : [
+                "Engaged in long- and short-term engagements with clients who use Sitecore",
+                "Providing expertise regarding code and architecture",
+                "Build and strengthen customer relationships"
+            ],
+            "skills" : [
+                "Next.js",
+                "TypeScript",
+                "SCSS", 
+                "ASP.NET",
+                "Docker"
+            ]
+        },
+        {
+            "institution" : "Sitecore",
+            "title" : "Senior Software Engineer, Product Support Services",
+            "location" : "Remote",
+            "dateStarted" : "Oct 2021",
+            "dateEnded" : "Oct 2022",
+            "description" : [
+                "Maintained previous responsibilities",
+                "Instructor and examiner in C#, ASP.NET, and Sitecore courses and exams for new team members",
+                "Support new team members and coordinate schedule for all instructors, examiners, and students",
+                "Lead knowledge sharing session relating to my areas of expertise",
+                "Develop patches/diagnostic pages for customers, tools for support team, code for product team"
+            ],
+            "skills" : [
+                "ASP.NET",
+                "C#",
+                "JavaScript", 
+                "Azure App Services",
+                "SQL"
+            ]
+        },
+        {
+            "institution" : "Sitecore",
+            "title" : "Software Engineer, Product Support Services",
+            "location" : "Gatineau, QC, Canada & Remote",
+            "dateStarted" : "Jul 2018",
+            "dateEnded" : "Sep 2021",
+            "description" : [
+               "Support customers with Sitecore product issues, providing suggestions within contracted SLAs",
+                "Report bugs, feature requests, document/knowledge base updates, to help improve Sitecore",
+                "Ongoing education in various Sitecore categories in order to broaden and deepen expertise",
+                "Participate in 24x7x365 on-call support rotation to provide customers with support globally"
+            ],
+            "skills" : [
+                "ASP.NET",
+                "C#",
+                "JavaScript", 
+                "SQL"
+            ]
+        },
+        {
+            "institution" : "L3 WESCAM",
+            "title" : "Integrated Systems Engineering Co-op ",
+            "location" : "Burlington, ON, Canada",
+            "dateStarted" : "Sep 2016",
+            "dateEnded" : "Aug 2017",
+            "description" : [
+                "Regression test and troubleshoot MX products with other engineers and technicians",
+                "Develop new C# utilities and maintain old software utilities for testing",
+                "Update Systems documents and provide general Systems team support ",
+                "Volunteered to assist in organizing and managing volleyball events in the workplace"
+            ],
+            "skills" : [
+                "C#",
+                "Microsoft Excel", 
+                "Windows Batch Scripting"
+            ]
+        },
+        {
+            "institution" : "L3 WESCAM",
+            "title" : "NPI Project Engineering Co-op ",
+            "location" : "Burlington, ON, Canada",
+            "dateStarted" : "May 2016",
+            "dateEnded" : "Aug 2016",
+            "description" : [
+                "Supported the Project Engineering group with engineering test part acquisition",
+                "Manage documentation, parts, and assemblies in WESCAM's ERP system",
+                "Used VBA to create custom excel tools for specific applications"
+            ],
+            "skills" : [
+                "VBA Excel",
+                "Microsoft Excel"
+            ]
+        }
+    ],
+    "school": [
+        {
+            "institution" : "McMaster University",
+            "title" : "Bachelor of Engineering, Mechatronics and Management",
+            "location" : "Hamilton, ON, Canada",
+            "dateStarted" : "Sep 2012",
+            "dateEnded" : "Jun 2018",
+            "description" : [
+                "Mechatronics combines concepts of Mechanical, Electrical, Software Engineering",
+                "Management designation included Finance, Marketing, Business Operations, and more", 
+                "Completed 16-month Co-op in addition to a five-year academic schedule"
+            ],
+            "skills" : [
+                "VBA Excel",
+                "Microsoft Excel"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title" : "PokeGuesser",
+            "githubLink" : "https://github.com/jasstsg/pokeguesser",
+            "siteLink" : "https://jasstsg.github.io/pokeguesser/",
+            "dateStarted" : "Oct 2024",
+            "description" : [
+                "A fun exercise in creating a game for my nephews",
+                "Makes use of the of the free PokeAPI: https://pokeapi.co/"
+            ],
+            "skills" : [
+                "React",
+                "TypeScript"
+            ]
+        },
+        {
+            "title" : "jasst.github.io/jasstsg",
+            "githubLink" : "https://github.com/jasstsg/jasstsg",
+            "siteLink" : "https://jasstsg.github.io/jasstsg/",
+            "dateStarted" : "Oct 2024",
+            "description" : [
+                "The site you're on right now!",
+                "A fun way to share my experiences"
+            ],
+            "skills" : [
+                "React",
+                "TypeScript"
+            ]
+        },
+        {
+            "title" : "TheTallTankard",
+            "githubLink" : "https://github.com/TheTallTankard/thetalltankard.github.io",
+            "siteLink" : "https://thetalltankard.github.io/",
+            "dateStarted" : "Dec 2022",
+            "description" : [
+                "A react app that I had hoped would replace my older ASP.NET Core project with a similar name",
+                "Features a couple of pages with tools for D&D 5th edition"
+            ],
+            "skills" : [
+                "React",
+                "JavaScript"
+            ]
+        },
+        {
+            "title" : "Mortgage Calculator",
+            "githubLink" : "https://github.com/MooseLight/mortgage",
+            "dateStarted" : "Mar 2020",
+            "description" : [
+                "A simple single page application for calculating mortgage payments",
+                "Made using HTML, Javascript, Bootstrap, and Chart.js",
+                "Displays payment information over the entire amortization period"
+            ],
+            "skills" : [
+                "HTML",
+                "JavaScript",
+                "Bootstrap"
+            ]
+        },
+        {
+            "title" : "TheTallTankardTavern",
+            "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",
+            "dateStarted" : "Mar 2019",
+            "description" : [
+                "Web app for managing D&D 5E character information and other resources",
+                "Built in ASP.NET Core 3.1 and hosted on my personal computer in IIS"
+            ],
+            "skills" : [
+                "ASP.NET",
+                "JavaScript"
+            ]
+        },
+        {
+            "title" : "SmartWalker (University Capstone Project)",
+            "githubLink" : "https://github.com/PG188/ModernMobility",
+            "dateStarted" : "Mar 2019",
+            "description" : [
+                "Assistive walker with autonomous navigation and manual driving aid.  My contributions are listed below",
+                "Computed position using reference frame transformation and triangulation",
+                "Used OpenCV in Python for detecting ArUco markers used for positioning and navigation",
+                "PID Control of wheel motors using Arduino boards",
+                "Assisted with socket programming for Bluetooth and Ethernet connections"
+            ],
+            "skills" : [
+                "Python",
+                "OpenCV",
+                "Arduino"
+            ]
+        }
+    ]
+}
