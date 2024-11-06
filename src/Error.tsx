@@ -1,6 +1,4 @@
 import { useRouteError } from "react-router-dom";
-import Header from "./sections/header/Header";
-import Footer from "./sections/footer/Footer";
 
 function Error() {
     const error: any = useRouteError();

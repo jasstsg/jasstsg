@@ -15,8 +15,19 @@ const router = createHashRouter([
     errorElement: <Error></Error>
   },
   {
+    path: "/jasstsg",
+    element: <App />,
+    errorElement: <Error></Error>
+  },
+  {
     path:"/resume",
-    element: <Resume></Resume>
+    element: <Resume></Resume>,
+    errorElement: <Error></Error>
+  },
+  {
+    path:"/jasstsg/resume",
+    element: <Resume></Resume>,
+    errorElement: <Error></Error>
   }
 ])
 

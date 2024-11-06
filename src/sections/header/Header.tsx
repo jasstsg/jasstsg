@@ -7,19 +7,19 @@ function Header(props: any) {
             <nav>
                 <ul>
                     <li>
-                        <a href="/">
+                        <a href="/jasstsg">
                             <span className="fa-solid fa-house"></span>
                             &nbsp;Home
                         </a>
                     </li>
                     <li>
-                        <a href="/#/projects">
+                        <a href="#/projects">
                             <span className="fa-solid fa-gears"></span>
                             &nbsp;Projects
                         </a>
                     </li>
                     <li>
-                        <a href="/#/resume" target="_blank" rel="noreferrer">
+                        <a href="#/resume" target="_blank" rel="noreferrer">
                             <span className="fa-solid fa-id-badge"></span>
                             &nbsp;Resume
                         </a>
