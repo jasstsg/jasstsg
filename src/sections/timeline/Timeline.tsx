@@ -11,8 +11,8 @@ import { TimelineElementProps } from '../../components/timeline/interfaces';
 function Timeline(props: any) {
 
   const work: WorkOrSchoolProps[] = resumeData.work;
-  const sitecore = work.filter(record => record.institution == "Sitecore");
-  const l3wescam = work.filter(record => record.institution == "L3 WESCAM");
+  const sitecore = work.filter(record => record.institution === "Sitecore");
+  const l3wescam = work.filter(record => record.institution === "L3 WESCAM");
 
   return (
     <section id="timeline">

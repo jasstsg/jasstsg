@@ -34,18 +34,8 @@ section#resume {
         }
     }
 
-    .sidebar {
-        /*
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        */
-        font-weight: 500;
-        padding: 1rem;
-        margin-top: 5rem;
-
-
+    .body {
+        padding: 0 2rem;
     }
 
     .record {
@@ -61,9 +51,9 @@ section#resume {
         border-radius: 500px;
         border-style: solid;
         border-width: 2px;
-        border-color: var(--red);
-        background-color: transparent;
-        color: var(--red);
+        border-color: var(--absolute-white);
+        background-color: var(--red);
+        color: var(--absolute-white);
         padding: 3px 12px;
         margin: 0 5px;
         font-weight: 500;
