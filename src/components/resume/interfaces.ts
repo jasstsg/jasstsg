@@ -26,5 +26,6 @@ export interface InterestsProps {
 export interface ExperienceProps {
     title: string,          
     description: string[],
-    skills: string[]
+    skills: string[],
+    elementPosition?: string
 }

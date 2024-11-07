@@ -17,7 +17,6 @@
   --foreground2: var(--cream);
   --background1: var(--absolute-white);
   --background2: var(--black);
-  --card-background: var(--charcoal);
   
   --red-light: #953641;
 
@@ -69,12 +68,11 @@
   */
 }
 
-.header, .card, .footer {
+.header, .footer {
   margin: 0 auto;
 }
 
 body {
-  max-width: 1200px;
   font-family: var(--primary-font);
   color: var(--foreground1);
   background-color: var(--background1);

@@ -1,23 +1,24 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import { TimelineElementContent, TimelineElementProps, TimelineElementStyle } from "./interfaces";
+import { TimelineElementProps } from "./interfaces";
 
 function TimelineElement(props: {element: TimelineElementProps} )
 {
-    const style: TimelineElementStyle = props.element.style;
-    const content: TimelineElementContent = props.element.content;
+    const element: TimelineElementProps = props.element;
     
     return (
-      <VerticalTimelineElement
-        contentStyle={{ background: `${style.contentBackgroundColor}`, color: `${style.contentColor}` }}
-        contentArrowStyle={{ borderRight: `12px solid ${style.arrowColor}` }}
-        iconStyle={{ background: `${style.iconBackgroundColor}`, color: `${style.iconColor}` }}
-        icon={content.icon}
-        date={`${content.date}`}
-      >
-        <h2>{`${content.title}`}</h2>
-        <h3>{`${content.subtitle}`}</h3>
-        <p>{content.content}</p>
-    </VerticalTimelineElement>
+      <VerticalTimelineElement 
+        icon={element.icon} 
+        position={element.elementPosition}>
+        <div className="instituion-and-loaction">
+              <span className="fa-solid fa-building"></span>
+              &nbsp;{element.institution}
+              <span className="fa-solid fa-circle"></span>
+              <span className="fa-solid fa-calendar-days"></span>
+              &nbsp;{element.date}
+          </div>
+          <h2>{`${element.title}`}</h2>
+          <p>{element.content}</p>
+      </VerticalTimelineElement>
     )
 }
 

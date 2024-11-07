@@ -1,15 +1,15 @@
+import { ReactNode } from 'react';
 import Header from './sections/header/Header';
-import Body from './sections/body/Body';
 import Footer from './sections/footer/Footer';
-import Timeline from './sections/timeline/Timeline';
+import './App.scss';
 
-function App() {
+function App(props: {children: ReactNode}) {
   return (
-    <div className="App">
+    <section id="app">
       <Header></Header>
-      <Timeline></Timeline>
+      {props.children}
       <Footer></Footer>
-    </div>
+    </section>
   );
 }
 

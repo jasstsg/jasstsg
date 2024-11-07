@@ -6,27 +6,39 @@ import reportWebVitals from './reportWebVitals';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Resume from './sections/resume/Resume';
 import Error from './Error';
+import Timeline from './sections/timeline/Timeline';
+import Projects from './sections/projects/Projects';
 
 
 const router = createHashRouter([
   {
     path: "/",
-    element: <App />,
-    errorElement: <Error></Error>
-  },
-  {
-    path: "/jasstsg",
-    element: <App />,
+    element: <App><Timeline/></App>,
     errorElement: <Error></Error>
   },
   {
     path:"/resume",
     element: <Resume></Resume>,
     errorElement: <Error></Error>
+  },  
+  {
+    path: "/projects",
+    element: <App><Projects/></App>,
+    errorElement: <Error></Error>
+  },
+  {
+    path: "/jasstsg",
+    element: <App><Timeline/></App>,
+    errorElement: <Error></Error>
   },
   {
     path:"/jasstsg/resume",
     element: <Resume></Resume>,
+    errorElement: <Error></Error>
+  },
+  {
+    path: "/jasstsg/projects",
+    element: <App><Projects/></App>,
     errorElement: <Error></Error>
   }
 ])

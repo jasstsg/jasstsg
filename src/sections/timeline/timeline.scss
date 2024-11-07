@@ -1,23 +1,85 @@
-.timeline {
-    margin: 0 1rem;
+section#timeline {
+    background-color: var(--absolute-white);
+    padding: 3rem 0;
 
-    .vertical-timeline-element-icon {
-        width: 1rem;
-        height: 1rem;
-        margin-left: -0.5rem;
-        margin-top: 1.5rem;
+    h1 {
+        margin: 0;
+    }
+}
+
+.fa-circle {
+    scale: 0.5;
+    margin: 0 10px;
+}
+
+.timeline-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .sub-timeline {
+        background-repeat: no-repeat;
+        background-size: 40%;
+    }
+
+    .sitecore {
+        background-image: url("../../images/Sitecore.png"); 
+        background-position: right;
+        
+    }    
+    
+    .l3wescam {
+        background-image: url("../../images/L3 WESCAM.png"); 
+        background-position: left;
+        
+    }
+
+    .vertical-timeline-element {
+        .vertical-timeline-element-content {
+            color: var(--foreground2);
+            background-color: var(--background2);
+            width: 47%;
+
+            .instituion-and-loaction {
+                padding-bottom: 1rem;
+            }
+
+            h2 {
+                margin: 0;
+                color: var(--foreground2);
+            }
+
+            .vertical-timeline-element-date {
+                color: var(--absolute-black);
+                font-size: 120%;
+                font-weight: bold;
+            }
+
+            .vertical-timeline-element-content-arrow {
+                border-right: 8px solid var(--background2);
+            }
+        }
+
+        .vertical-timeline-element-icon {
+            background-color: var(--background2);
+            width: 2rem;
+            height: 2rem;
+            margin-left: -1rem;
+            margin-top: 1rem;
+            box-shadow: none;
+        }
     }
 
     .pill {
         border-radius: 500px;
         border-style: solid;
-        border-width: 1px;
-        border-color: var(--absolute-white);
-        background-color: transparent;
-        color: var(--absolute-white);
+        border-width: 2px;
+        border-color: var(--foreground2);
+        background-color: var(--highlight);
+        color: var(--foreground2);
         padding: 3px 12px;
         margin: 0 5px;
         white-space: nowrap;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
 }
