@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/jasstsg/static/css/main.8d92ebfc.css",
-    "main.js": "/jasstsg/static/js/main.02d058d7.js",
+    "main.css": "/jasstsg/static/css/main.f9bf6dcc.css",
+    "main.js": "/jasstsg/static/js/main.8a274dce.js",
     "static/js/453.e4331331.chunk.js": "/jasstsg/static/js/453.e4331331.chunk.js",
+    "static/media/L3 WESCAM.png": "/jasstsg/static/media/L3 WESCAM.91d62de78bb990a79ad9.png",
+    "static/media/Sitecore.png": "/jasstsg/static/media/Sitecore.502b2deb4570c2cf4a39.png",
     "index.html": "/jasstsg/index.html",
-    "main.8d92ebfc.css.map": "/jasstsg/static/css/main.8d92ebfc.css.map",
-    "main.02d058d7.js.map": "/jasstsg/static/js/main.02d058d7.js.map",
+    "main.f9bf6dcc.css.map": "/jasstsg/static/css/main.f9bf6dcc.css.map",
+    "main.8a274dce.js.map": "/jasstsg/static/js/main.8a274dce.js.map",
     "453.e4331331.chunk.js.map": "/jasstsg/static/js/453.e4331331.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d92ebfc.css",
-    "static/js/main.02d058d7.js"
+    "static/css/main.f9bf6dcc.css",
+    "static/js/main.8a274dce.js"
   ]
 }
