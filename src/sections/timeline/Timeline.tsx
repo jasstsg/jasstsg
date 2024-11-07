@@ -18,7 +18,7 @@ function Timeline(props: any) {
     <section id="timeline">
       <div className="timeline-container">
       <h1>Welcome to my website! I'm <span id="name">Tyler</span>.</h1>
-      <h2>Its still under construction, but while you're here check my journey so far!</h2>
+      <h2>Its still under construction, but while you're here check out my journey so far!</h2>
       <VerticalTimeline lineColor={getCSSVariable("--foreground1")}>
         <div className="sitecore sub-timeline">
           {
