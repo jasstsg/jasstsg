@@ -16,7 +16,8 @@ export interface WorkOrSchoolProps extends ExperienceProps {
 export interface ProjectProps extends ExperienceProps {
     dateStarted: string,
     githubLink: string,
-    siteLink?: string
+    siteLink?: string,
+    hideFromResume?: boolean
 }
 
 export interface InterestsProps {
@@ -24,7 +25,8 @@ export interface InterestsProps {
 }
 
 export interface ExperienceProps {
-    title: string,          
+    title: string,       
+    descriptionNote?: string,   
     description: string[],
     skills: string[],
     elementPosition?: string

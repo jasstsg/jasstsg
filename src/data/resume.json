@@ -7,9 +7,10 @@
             "dateStarted" : "Nov 2022",
             "dateEnded" : "Oct 2024",
             "description" : [
-                "Engaged in long- and short-term engagements with clients who use Sitecore",
-                "Providing expertise regarding code and architecture",
-                "Build and strengthen customer relationships"
+                "Developed custom Sitecore components and functionality catered to client's needs",
+                "Advised clients on best practices for code implementation and site architectural",
+                "Collaborated with DevOps teams to improve continuous integration and deployment pipelines",
+                "Fostered strong client relationships to ensure clear communication and successful project outcomes"
             ],
             "skills" : [
                 "Next.js",
@@ -25,12 +26,12 @@
             "location" : "Remote",
             "dateStarted" : "Oct 2021",
             "dateEnded" : "Oct 2022",
+            "descriptionNote" : "In addition to previous responsibilities: ",
             "description" : [
-                "Maintained previous responsibilities",
-                "Instructor and examiner in C#, ASP.NET, and Sitecore courses and exams for new team members",
-                "Support new team members and coordinate schedule for all instructors, examiners, and students",
-                "Lead knowledge sharing session relating to my areas of expertise",
-                "Develop patches/diagnostic pages for customers, tools for support team, code for product team"
+                "Coordinated training schedules for all new team members onboarding with the North America team",
+                "Instructor and examiner in C#, ASP.NET, and Sitecore technologies for new team members",
+                "Led knowledge-sharing sessions to enahnce team expertise",
+                "Developed tools for the support team, and contributed code to the product team"
             ],
             "skills" : [
                 "ASP.NET",
@@ -47,10 +48,10 @@
             "dateStarted" : "Jul 2018",
             "dateEnded" : "Sep 2021",
             "description" : [
-               "Support customers with Sitecore product issues, providing suggestions within contracted SLAs",
-                "Report bugs, feature requests, document/knowledge base updates, to help improve Sitecore",
-                "Ongoing education in various Sitecore categories in order to broaden and deepen expertise",
-                "Participate in 24x7x365 on-call support rotation to provide customers with support globally"
+                "Supported customers by addressing product issues and delivering solutions within contracted SLAs",
+                "Developed patches/diagnostic pages for customers",
+                "Reported bugs and feature requests, updated documentation and knowledge base articles",
+                "Participated in 24x7x365 on-call support rotation providing customer support globally at any time"
             ],
             "skills" : [
                 "ASP.NET",
@@ -114,6 +115,7 @@
     ],
     "projects": [
         {
+            "hideFromResume": true,
             "title" : "PokeGuesser",
             "githubLink" : "https://github.com/jasstsg/pokeguesser",
             "siteLink" : "https://jasstsg.github.io/pokeguesser/",
@@ -128,13 +130,15 @@
             ]
         },
         {
+            "hideFromResume": false,
             "title" : "jasst.github.io/jasstsg",
             "githubLink" : "https://github.com/jasstsg/jasstsg",
             "siteLink" : "https://jasstsg.github.io/jasstsg/",
             "dateStarted" : "Oct 2024",
             "description" : [
-                "The site you're on right now!",
-                "A fun way to share my experiences"
+                "Personal website, designed and developed using React.js and TypeScript",
+                "Hosted and deployed the website on GitHub Pages for seamless updates",
+                "Showcases hobby projects and technical skills with a clean, simple design"
             ],
             "skills" : [
                 "React",
@@ -142,6 +146,7 @@
             ]
         },
         {
+            "hideFromResume": true,
             "title" : "TheTallTankard",
             "githubLink" : "https://github.com/TheTallTankard/thetalltankard.github.io",
             "siteLink" : "https://thetalltankard.github.io/",
@@ -156,6 +161,7 @@
             ]
         },
         {
+            "hideFromResume": true,
             "title" : "Mortgage Calculator",
             "githubLink" : "https://github.com/MooseLight/mortgage",
             "dateStarted" : "Mar 2020",
@@ -171,12 +177,13 @@
             ]
         },
         {
+            "hideFromResume": false,
             "title" : "TheTallTankardTavern",
             "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",
             "dateStarted" : "Mar 2019",
             "description" : [
-                "Web app for managing D&D 5E character information and other resources",
-                "Built in ASP.NET Core 3.1 and hosted on my personal computer in IIS"
+                "An ASP.NET Core 3.1 MVC app to manage a variety of data for my D&D 5th Edition campaign",
+                "Hosted in IIS with remote access for players to track their character data from home"
             ],
             "skills" : [
                 "ASP.NET",
@@ -184,6 +191,7 @@
             ]
         },
         {
+            "hideFromResume": true,
             "title" : "SmartWalker (University Capstone Project)",
             "githubLink" : "https://github.com/PG188/ModernMobility",
             "dateStarted" : "Mar 2019",

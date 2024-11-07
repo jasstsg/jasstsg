@@ -16,7 +16,9 @@ function WorkOrSchool(props: {props: WorkOrSchoolProps}){
                 <span className="fa-solid fa-calendar-days"></span>
                 &nbsp;{record.dateStarted} - {record.dateEnded}
             </div>
-            <ul>{record.description.map(d => <li>{d}</li>)}</ul>
+            <ul>
+                <div>{record?.descriptionNote}</div>
+                {record.description.map(d => <li>{d}</li>)}</ul>
             <div>
                 {record.skills.map(d => <Pill text={d}></Pill>)}
             </div>

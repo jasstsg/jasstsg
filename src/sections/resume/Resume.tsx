@@ -57,11 +57,25 @@ function Resume(props: any) {
             </div>
             <div className="body">
                 <h1>Experience</h1>
-                {work.map(w => ( <WorkOrSchool props={w}></WorkOrSchool> ))}
+                {
+                    work.map(w => ( <WorkOrSchool props={w}></WorkOrSchool> ))
+                }
                 <h1>Education</h1>
-                {school.map(s => ( <WorkOrSchool props={s}></WorkOrSchool> ))}
+                {
+                    school.map(s => ( <WorkOrSchool props={s}></WorkOrSchool> ))
+                }
                 <h1>Projects</h1>
-                {projects.map(p => ( <Project props={p}></Project> ))}
+                {
+                    projects.filter(p => !p.hideFromResume)
+                        .map(p => ( <Project props={p}></Project> ))
+                }
+                <div id="see-more-projects">
+                    Find more of my projects:&nbsp;
+                    <a href="https://jasstsg.github.io/jasstsg/#/projects">
+                        https://jasstsg.github.io/jasstsg/#/projects
+                    </a>
+                </div>
+                
             </div>
         </section>
     )
