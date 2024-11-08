@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/jasstsg/static/css/main.69a39936.css",
-    "main.js": "/jasstsg/static/js/main.0a17d0ad.js",
+    "main.css": "/jasstsg/static/css/main.398dba8b.css",
+    "main.js": "/jasstsg/static/js/main.ee3e726b.js",
     "static/js/453.e4331331.chunk.js": "/jasstsg/static/js/453.e4331331.chunk.js",
     "static/media/L3 WESCAM.png": "/jasstsg/static/media/L3 WESCAM.91d62de78bb990a79ad9.png",
+    "static/media/McMaster.png": "/jasstsg/static/media/McMaster.b46412f1547ae825e602.png",
     "static/media/Sitecore.png": "/jasstsg/static/media/Sitecore.502b2deb4570c2cf4a39.png",
     "index.html": "/jasstsg/index.html",
-    "main.69a39936.css.map": "/jasstsg/static/css/main.69a39936.css.map",
-    "main.0a17d0ad.js.map": "/jasstsg/static/js/main.0a17d0ad.js.map",
+    "main.398dba8b.css.map": "/jasstsg/static/css/main.398dba8b.css.map",
+    "main.ee3e726b.js.map": "/jasstsg/static/js/main.ee3e726b.js.map",
     "453.e4331331.chunk.js.map": "/jasstsg/static/js/453.e4331331.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69a39936.css",
-    "static/js/main.0a17d0ad.js"
+    "static/css/main.398dba8b.css",
+    "static/js/main.ee3e726b.js"
   ]
 }
