@@ -17,7 +17,7 @@ function TimelineElement(props: {element: TimelineElementProps} )
               &nbsp;{element.date}
           </div>
           <h2>{`${element.title}`}</h2>
-          <p>{element.content}</p>
+          <div className="content">{element.content}</div>
       </VerticalTimelineElement>
     )
 }
