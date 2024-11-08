@@ -7,6 +7,7 @@ import { WorkOrSchoolProps } from '../../components/resume/interfaces';
 import Pill from '../../components/pill/Pill';
 import { getCSSVariable } from '../../helpers/styleHelper';
 import { TimelineElementProps } from '../../components/timeline/interfaces';
+import Hero from '../hero/Hero';
 
 function Timeline(props: any) {
 
@@ -14,29 +15,38 @@ function Timeline(props: any) {
   const sitecore = work.filter(record => record.institution === "Sitecore");
   const l3wescam = work.filter(record => record.institution === "L3 WESCAM");
 
+  const school: WorkOrSchoolProps[] = resumeData.school;
+
   return (
     <section id="timeline">
       <div className="timeline-container">
-      <h1>Welcome to my website! I'm <span id="name">Tyler</span>.</h1>
-      <h2>Its still under construction, but while you're here, please have a look around!</h2>
-      <VerticalTimeline lineColor={getCSSVariable("--foreground1")}>
-        <div className="sitecore sub-timeline">
-          {
-            sitecore.map((record: WorkOrSchoolProps) => (
-              <TimelineElement key={record.title} 
-                element={generateTimelineElementProps(record, "left")} />
-            ))
-          }
-        </div> 
-        <div className="l3wescam sub-timeline">     
-          {
-            l3wescam.map((record: WorkOrSchoolProps) => (
-              <TimelineElement key={record.title} 
-                element={generateTimelineElementProps(record, "right")} />
-            ))
-          }
-        </div> 
-      </VerticalTimeline>
+        <Hero></Hero>
+        <VerticalTimeline lineColor={getCSSVariable("--foreground1")}>
+          <div className="sitecore sub-timeline">
+            {
+              sitecore.map((record: WorkOrSchoolProps) => (
+                <TimelineElement key={record.title} 
+                  element={generateTimelineElementProps(record, "left")} />
+              ))
+            }
+          </div> 
+          <div className="l3wescam sub-timeline">     
+            {
+              l3wescam.map((record: WorkOrSchoolProps) => (
+                <TimelineElement key={record.title} 
+                  element={generateTimelineElementProps(record, "right")} />
+              ))
+            }
+          </div>  
+          <div className="mcmaster sub-timeline">     
+            {
+              school.map((record: WorkOrSchoolProps) => (
+                <TimelineElement key={record.title} 
+                  element={generateTimelineElementProps(record, "left")} />
+              ))
+            }
+          </div>
+        </VerticalTimeline>
       </div>
     </section>
   )
