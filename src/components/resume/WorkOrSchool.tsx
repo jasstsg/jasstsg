@@ -18,9 +18,9 @@ function WorkOrSchool(props: {props: WorkOrSchoolProps}){
             </div>
             <ul>
                 <div>{record?.descriptionNote}</div>
-                {record.description.map(d => <li>{d}</li>)}</ul>
+                {record.description.map(d => <li key={d}>{d}</li>)}</ul>
             <div>
-                {record.skills.map(d => <Pill text={d}></Pill>)}
+                {record.skills.map(d => <Pill key={d} text={d}></Pill>)}
             </div>
         </div>
     )

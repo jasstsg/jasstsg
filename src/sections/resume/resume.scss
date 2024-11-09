@@ -1,6 +1,25 @@
 section#resume {
-    margin: 0 auto;
-    max-width: 815px; // Correct size on my monitor matching MS Word doc width at 100% zoom
+    background-color: var(--absolute-white);
+
+    .resume-container {
+        margin: 0 auto;
+        max-width: 1200px;
+
+        .resume-printable a {
+            background-color: var(--highlight);
+            border-radius: 5px;
+            padding: 5px;
+            color: var(--foreground2)
+        }
+
+        &.printable {
+            max-width: 815px; // Correct size on my monitor matching MS Word doc width at 100% zoom
+            
+             .resume-printable {
+                visibility: hidden;
+            }
+        }
+    }
 
     h1 {
         text-transform: uppercase;

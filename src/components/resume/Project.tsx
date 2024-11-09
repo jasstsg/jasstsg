@@ -32,9 +32,9 @@ function Project(props: {props: ProjectProps}){
                 <span className="fa-solid fa-calendar-days"></span>
                 &nbsp;{record.dateStarted}
             </div>
-            <ul>{record.description.map(d => <li>{d}</li>)}</ul>
+            <ul>{record.description.map(d => <li key={d}>{d}</li>)}</ul>
             <div>
-                {record.skills.map(d => <Pill text={d}></Pill>)}
+                {record.skills.map(d => <Pill key={d} text={d}></Pill>)}
             </div>
         </div>
     )

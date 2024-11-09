@@ -18,9 +18,14 @@ const router = createHashRouter([
   },
   {
     path:"/resume",
-    element: <Resume></Resume>,
+    element: <App><Resume/></App>,
     errorElement: <Error></Error>
-  },  
+  }, 
+  {
+    path:"/resume-printable",
+    element: <Resume resumeType="printable" />,
+    errorElement: <Error></Error>
+  }, 
   {
     path: "/projects",
     element: <App><Projects/></App>,
@@ -33,7 +38,12 @@ const router = createHashRouter([
   },
   {
     path:"/jasstsg/resume",
-    element: <Resume></Resume>,
+    element: <App><Resume/></App>,
+    errorElement: <Error></Error>
+  }, 
+  {
+    path:"/jasstsg/resume-printable",
+    element: <Resume resumeType="printable" />,
     errorElement: <Error></Error>
   },
   {
