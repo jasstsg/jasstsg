@@ -9,13 +9,14 @@
   /* COLOURS */
   --absolute-black: #000000;
   --absolute-white: #FFFFFF;
+  --white: #DDDDDD;
 
   --highlight: var(--red);
   --link: var(--red-light);
   --link-hover: var(--red);
   --foreground1: var(--absolute-black);
   --foreground2: var(--cream);
-  --background1: var(--absolute-white);
+  --background1: var(--white);
   --background2: var(--black);
   
   --red-light: #953641;

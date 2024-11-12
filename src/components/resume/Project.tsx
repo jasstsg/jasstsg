@@ -1,9 +1,9 @@
+import { GITHUB_URL } from "../../helpers/constants";
 import Pill from "../pill/Pill";
 import { ProjectProps } from "./interfaces";
 
 function Project(props: {props: ProjectProps}){
     const record = props.props;
-    const GITHUB_URL = "https://github.com/"
     return (
         <div className="record">
             <h2>{record.title}</h2>

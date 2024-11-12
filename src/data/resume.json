@@ -120,6 +120,8 @@
             "githubLink" : "https://github.com/jasstsg/pokeguesser",
             "siteLink" : "https://jasstsg.github.io/pokeguesser/",
             "dateStarted" : "Oct 2024",
+            "imageName": "PokeGuesser.png",
+            "shortDescription": "A fun React app project that is intended to be a guessing game for my nephews.  This is still a work in progress.",
             "description" : [
                 "A fun exercise in creating a game for my nephews",
                 "Makes use of the of the free PokeAPI: https://pokeapi.co/"
@@ -135,6 +137,8 @@
             "githubLink" : "https://github.com/jasstsg/jasstsg",
             "siteLink" : "https://jasstsg.github.io/jasstsg/",
             "dateStarted" : "Oct 2024",
+            "imageName": "MySite.png",
+            "shortDescription": "The site you are on right now!  It serves as both my resume and portfolio.  Thank you for taking an interest in me.",
             "description" : [
                 "Personal website, designed and developed using React.js and TypeScript",
                 "Hosted and deployed the website on GitHub Pages for seamless updates",
@@ -151,6 +155,8 @@
             "githubLink" : "https://github.com/TheTallTankard/thetalltankard.github.io",
             "siteLink" : "https://thetalltankard.github.io/",
             "dateStarted" : "Dec 2022",
+            "imageName": "TheTallTankard.png",
+            "shortDescription": "Originally intended to replace my ASP.NET Core app of a similar name.  This instead hosts a couple of tools and a search bar that one day I'll get around to implementing.",
             "description" : [
                 "A react app that I had hoped would replace my older ASP.NET Core project with a similar name",
                 "Features a couple of pages with tools for D&D 5th edition"
@@ -165,6 +171,8 @@
             "title" : "Mortgage Calculator",
             "githubLink" : "https://github.com/MooseLight/mortgage",
             "dateStarted" : "Mar 2020",
+            "imageName": "CalculatorsForLife.png",
+            "shortDescription": "A short-term project a friend and I worked on.  The idea was to build a financial app that hosted different kinds of calculators with clear and simple tables, visualisations, and UI.",
             "description" : [
                 "A simple single page application for calculating mortgage payments",
                 "Made using HTML, Javascript, Bootstrap, and Chart.js",
@@ -181,6 +189,8 @@
             "title" : "TheTallTankardTavern",
             "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",
             "dateStarted" : "Mar 2019",
+            "imageName": "TheTallTankardTavern.png",
+            "shortDescription": "An ASP.NET Core MVC app that I use to help me run my D&D sessions.  My players can view and update their characters from the comfort of thier home, while I can manage everything I need all in one place.",
             "description" : [
                 "An ASP.NET Core 3.1 MVC app to manage a variety of data for my D&D 5th Edition campaign",
                 "Hosted in IIS with remote access for players to track their character data from home"
@@ -192,9 +202,11 @@
         },
         {
             "hideFromResume": true,
-            "title" : "SmartWalker (University Capstone Project)",
+            "title" : "SmartWalker",
             "githubLink" : "https://github.com/PG188/ModernMobility",
             "dateStarted" : "Mar 2019",
+            "imageName": "ModernMobility.png",
+            "shortDescription": "McMaster Mechatronics Engineering capstone project.  Intended to provide better support for those use walkers to aid them when moving around.",
             "description" : [
                 "Assistive walker with autonomous navigation and manual driving aid.  My contributions are listed below",
                 "Computed position using reference frame transformation and triangulation",

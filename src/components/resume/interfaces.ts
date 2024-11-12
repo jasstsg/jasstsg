@@ -17,7 +17,9 @@ export interface ProjectProps extends ExperienceProps {
     dateStarted: string,
     githubLink: string,
     siteLink?: string,
-    hideFromResume?: boolean
+    hideFromResume?: boolean,
+    shortDescription?: string,
+    imageName?: string
 }
 
 export interface InterestsProps {

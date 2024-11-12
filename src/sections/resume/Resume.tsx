@@ -69,16 +69,16 @@ function Resume(props: any) {
                 <div className="body">
                     <h1>Experience</h1>
                     {
-                        work.map(w => ( <WorkOrSchool key={w.title} props={w}></WorkOrSchool> ))
+                        work.map(w => ( <WorkOrSchool key={w.title} props={w} /> ))
                     }
                     <h1>Education</h1>
                     {
-                        school.map(s => ( <WorkOrSchool key={s.title} props={s}></WorkOrSchool> ))
+                        school.map(s => ( <WorkOrSchool key={s.title} props={s} /> ))
                     }
                     <h1>Projects</h1>
                     {
                         projects.filter(p => !p.hideFromResume)
-                            .map(p => ( <Project key={p.title} props={p}></Project> ))
+                            .map(p => ( <Project key={p.title} props={p} /> ))
                     }
                     <div id="see-more-projects">
                         Find more of my projects:&nbsp;

@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouteObject, RouterProvider } from 'react-router-dom';
 import Resume from './sections/resume/Resume';
 import Error from './Error';
 import Timeline from './sections/timeline/Timeline';
 import Projects from './sections/projects/Projects';
 
-
-const router = createHashRouter([
+const routes: RouteObject[] = [
   {
     path: "/",
     element: <App><Timeline/></App>,
+    errorElement: <Error></Error>
+  }, 
+  {
+    path: "/projects",
+    element: <App><Projects/></App>,
     errorElement: <Error></Error>
   },
   {
@@ -25,33 +29,16 @@ const router = createHashRouter([
     path:"/resume-printable",
     element: <Resume resumeType="printable" />,
     errorElement: <Error></Error>
-  }, 
-  {
-    path: "/projects",
-    element: <App><Projects/></App>,
-    errorElement: <Error></Error>
-  },
-  {
-    path: "/jasstsg",
-    element: <App><Timeline/></App>,
-    errorElement: <Error></Error>
-  },
-  {
-    path:"/jasstsg/resume",
-    element: <App><Resume/></App>,
-    errorElement: <Error></Error>
-  }, 
-  {
-    path:"/jasstsg/resume-printable",
-    element: <Resume resumeType="printable" />,
-    errorElement: <Error></Error>
-  },
-  {
-    path: "/jasstsg/projects",
-    element: <App><Projects/></App>,
-    errorElement: <Error></Error>
   }
-])
+]
+
+const productionRoutes: RouteObject[] = routes.map(r => ({
+  path: `/jasstsg/${r.path}`,
+  element: r.element,
+  errorElement: r.errorElement
+}));
+
+const router = createHashRouter([ ...routes, ...productionRoutes])
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
