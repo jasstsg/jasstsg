@@ -13,14 +13,14 @@ import {
 import './embla.css';
 
 const TWEEN_OPACITY_FACTOR_BASE = 0.84
-const TWEEN_SCALE_FACTOR_BASE = 0.52;
+const TWEEN_SCALE_FACTOR_BASE = 0.2;
 const TWEEN_NODE_SELECTOR = ".embla__tween__node";
 
 const OPACITY_MAX = 1;
 const OPACITY_MIN = 0;
 
 const SCALE_MAX = 1;
-const SCALE_MIN = 0.8;
+const SCALE_MIN = 0;
 
 const numberWithinRange = (number: number, min: number, max: number): number =>
   Math.min(Math.max(number, min), max)
