@@ -1,13 +1,11 @@
 .embla {
-  width: 80vw;  
-  max-width: 1000px;
     margin: auto;
     --slide-height: 19rem;
     --slide-spacing: 0.1rem;
     --slide-size: 95%;
   }
   .embla__viewport {
-    overflow: visible;
+    overflow: hidden;
   }
   .embla__container {
     display: flex;
@@ -15,6 +13,8 @@
     margin-left: calc(var(--slide-spacing) * -1);
   }
   .embla__slide {
+    width: 80vw;  
+    max-width: 1000px;
     transform: translate3d(0, 0, 0);
     flex: 0 0 var(--slide-size);
     min-width: 0;

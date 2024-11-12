@@ -190,7 +190,7 @@
             "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",
             "dateStarted" : "Mar 2019",
             "imageName": "TheTallTankardTavern.png",
-            "shortDescription": "An ASP.NET Core MVC app that I use to help me run my D&D sessions.  My players can view and update their characters from the comfort of thier home, while I can manage everything I need all in one place.",
+            "shortDescription": "An ASP.NET Core MVC app that I use to run my D&D sessions.  My players can view and update their characters from the comfort of their home, while I manage everything I need all in one place.",
             "description" : [
                 "An ASP.NET Core 3.1 MVC app to manage a variety of data for my D&D 5th Edition campaign",
                 "Hosted in IIS with remote access for players to track their character data from home"
@@ -206,7 +206,7 @@
             "githubLink" : "https://github.com/PG188/ModernMobility",
             "dateStarted" : "Mar 2019",
             "imageName": "ModernMobility.png",
-            "shortDescription": "McMaster Mechatronics Engineering capstone project.  Intended to provide better support for those use walkers to aid them when moving around.",
+            "shortDescription": "McMaster Mechatronics Engineering capstone project.  Intended to provide better support for those use walkers to aid them when getting around.",
             "description" : [
                 "Assistive walker with autonomous navigation and manual driving aid.  My contributions are listed below",
                 "Computed position using reference frame transformation and triangulation",
