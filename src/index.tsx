@@ -24,11 +24,6 @@ const routes: RouteObject[] = [
     path:"/resume",
     element: <App><Resume/></App>,
     errorElement: <Error></Error>
-  }, 
-  {
-    path:"/resume-printable",
-    element: <Resume resumeType="printable" />,
-    errorElement: <Error></Error>
   }
 ]
 

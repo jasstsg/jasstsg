@@ -1,3 +1,4 @@
+import IconTextLink from '../../components/IconText/IconTextLink';
 import HorizontalLine from '../horizontal-line/HorizontalLine';
 import './header.scss';
 
@@ -7,34 +8,41 @@ function Header(props: any) {
             <nav>
                 <ul>
                     <li>
-                        <a href="/jasstsg">
-                            <span className="fa-solid fa-house"></span>
-                            &nbsp;Home
-                        </a>
+                        <IconTextLink
+                            faclasses="fa-solid fa-house"
+                            href="/jasstsg"
+                            text="Home"
+                        />
                     </li>
                     <li>
-                        <a href="#/projects">
-                            <span className="fa-solid fa-gears"></span>
-                            &nbsp;Projects
-                        </a>
+                        <IconTextLink
+                            faclasses="fa-solid fa-gears"
+                            href="#/projects"
+                            text="Projects"
+                        />
                     </li>
                     <li>
-                        <a href="#/resume" target="_blank" rel="noreferrer">
-                            <span className="fa-solid fa-id-badge"></span>
-                            &nbsp;Resume
-                        </a>
+                        <IconTextLink
+                            faclasses="fa-solid fa-id-badge"
+                            href="#/resume"
+                            text="Resume"
+                        />
                     </li>
                     <li>
-                        <a href="https://ca.linkedin.com/in/tyler-jass" target="_blank" rel="noreferrer">
-                            <span className="fab fa-linkedin" aria-hidden="true"></span>
-                            &nbsp;LinkedIn 
-                        </a>
+                        <IconTextLink
+                            faclasses="fab fa-linkedin" 
+                            href="https://ca.linkedin.com/in/tyler-jass" 
+                            text="LinkedIn"
+                            newTab={true}
+                        />
                     </li>
                     <li>
-                        <a href="https://www.github.com/jasstsg" target="_blank" rel="noreferrer">
-                            <span className="fab fa-github-square" aria-hidden="true"></span>
-                            &nbsp;Github
-                        </a>
+                        <IconTextLink
+                            faclasses="fab fa-github-square" 
+                            href="https://www.github.com/jasstsg" 
+                            text="Github"
+                            newTab={true}
+                        />
                     </li>
                 </ul> 
             </nav>

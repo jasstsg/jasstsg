@@ -6,27 +6,30 @@ import './resume.scss';
 import './resume.grid.scss';
 import IconText from '../../components/IconText/IconText';
 import IconTextLink from '../../components/IconText/IconTextLink';
+import { useRef } from 'react';
+import { useReactToPrint } from 'react-to-print';
 
 function Resume(props: any) {
-    /* Options for resume type are either an empty string or "printable" */
-    const resumeType: string = props.resumeType;
-    
     const work: WorkOrSchoolProps[] = resumeData.work;
     const school: WorkOrSchoolProps[] = resumeData.school;
     const projects: ProjectProps[] = resumeData.projects;
     
+    const printableContentElement = useRef<HTMLDivElement>(null);
+    const reactToPrintFn = useReactToPrint({
+        contentRef: printableContentElement,
+        documentTitle: "JASS, TYLER - RESUME"
+    });
+
     return (
-        <section id="resume">
-            <div className={`resume-container ${resumeType}`}>
+        <section id="resume" ref={printableContentElement}>
+            <div className={`resume-container`}>
+                <button id="print-button" onClick={() => reactToPrintFn()}>
+                    <span className="fa-solid fa-print"></span>
+                    &nbsp;
+                    Print this resume
+                </button>
                 <div className="header">
                     <div className="left">
-                        <div className="resume-printable">
-                            <IconTextLink
-                                faclasses="fa-solid fa-print"
-                                href="#/resume-printable"
-                                text="Open print-ready resume"
-                                newTab={true} />
-                        </div>
                         <h1>Tyler Jass</h1>
                     </div>
                     <div className="right">                
