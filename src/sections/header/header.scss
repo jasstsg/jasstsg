@@ -1,7 +1,7 @@
 .header {
     nav {
         padding-top: 0.5rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bold;
 
         ul {
@@ -10,6 +10,18 @@
             list-style-type: none;
             gap: 5rem;
             justify-content: center;
+
+            @media only screen and (max-width: 1000px) {
+               gap: 2rem;
+            }
+
+            @media only screen and (max-width: 700px) {
+
+                li.hide-for-mobile {
+                    display: none;
+                }
+
+            }
         }
     }
 } 

@@ -1,6 +1,13 @@
 section#resume {
     background-color: var(--absolute-white);
 
+    @media print {
+        font-family: var(--print-resume-font);
+        h1, h2 {
+            font-size: 2rem;
+        }
+    }
+    
     #print-button {
         font-size: 1.5rem;
         color: var(--foreground2);

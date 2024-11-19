@@ -5,11 +5,10 @@ function Hero(props: any){
     const sequence: any[] = [
         "Tyler", 2000,
         "a .NET developer", 5000,
-        "a ReactJS developer", 5000,
+        "a React developer", 5000,
         "a dungeon master", 5000,
-        "excited about learning", 5000,
+        "always learning new things", 5000,
         "a casual guitar player", 5000,
-        "trying to learn Godot Engine", 5000,
         "a dog owner", 5000, 
         "a husband", 5000,
         "a gamer", 5000,

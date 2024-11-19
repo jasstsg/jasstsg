@@ -45,7 +45,19 @@ section.project-card {
     &:hover {
         box-shadow: 0 0 10px 3px var(--background2);
         transition: 0.5s;
-        transform: scale(1.3);
+        transform: scale(1.2);
+    }
+
+    @media only screen and (max-width: 1200px) {
+        width: 45%;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        width: 90%;
     }
 
     img {

@@ -17,7 +17,7 @@ const routes: RouteObject[] = [
   }, 
   {
     path: "/projects",
-    element: <App><Projects heading="My Projects" /></App>,
+    element: <App><Projects heading="My Personal Projects" /></App>,
     errorElement: <Error></Error>
   },
   {

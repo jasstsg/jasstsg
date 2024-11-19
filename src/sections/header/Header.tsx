@@ -9,16 +9,9 @@ function Header(props: any) {
                 <ul>
                     <li>
                         <IconTextLink
-                            faclasses="fa-solid fa-house"
+                            faclasses=""
                             href="/jasstsg"
-                            text="Home"
-                        />
-                    </li>
-                    <li>
-                        <IconTextLink
-                            faclasses="fa-solid fa-gears"
-                            href="#/projects"
-                            text="Projects"
+                            text="Tyler Jass"
                         />
                     </li>
                     <li>
@@ -30,13 +23,20 @@ function Header(props: any) {
                     </li>
                     <li>
                         <IconTextLink
+                            faclasses="fa-solid fa-laptop-code"
+                            href="#/projects"
+                            text="Projects"
+                        />
+                    </li>
+                    <li className="hide-for-mobile">
+                        <IconTextLink
                             faclasses="fab fa-linkedin" 
                             href="https://ca.linkedin.com/in/tyler-jass" 
                             text="LinkedIn"
                             newTab={true}
                         />
                     </li>
-                    <li>
+                    <li className="hide-for-mobile">
                         <IconTextLink
                             faclasses="fab fa-github-square" 
                             href="https://www.github.com/jasstsg" 

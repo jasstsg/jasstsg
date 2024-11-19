@@ -16,7 +16,7 @@
                 "Next.js",
                 "TypeScript",
                 "SCSS", 
-                "ASP.NET",
+                ".NET Core",
                 "Docker"
             ]
         },
@@ -29,12 +29,12 @@
             "descriptionNote" : "In addition to previous responsibilities: ",
             "description" : [
                 "Coordinated training schedules for all new team members onboarding with the North America team",
-                "Instructor and examiner in C#, ASP.NET, and Sitecore technologies for new team members",
+                "Instructor and examiner in C#, .NET Core, and Sitecore technologies for new team members",
                 "Led knowledge-sharing sessions to enahnce team expertise",
                 "Developed tools for the support team, and contributed code to the product team"
             ],
             "skills" : [
-                "ASP.NET",
+                ".NET Core",
                 "C#",
                 "JavaScript", 
                 "Azure App Services",
@@ -54,7 +54,7 @@
                 "Participated in 24x7x365 on-call support rotation providing customer support globally at any time"
             ],
             "skills" : [
-                "ASP.NET",
+                ".NET Core",
                 "C#",
                 "JavaScript", 
                 "SQL"
@@ -121,14 +121,17 @@
             "siteLink" : "https://jasstsg.github.io/pokeguesser/",
             "dateStarted" : "Oct 2024",
             "imageName": "PokeGuesser.png",
-            "shortDescription": "A fun React app project that is intended to be a guessing game for my nephews.  This is still a work in progress, right now it just provides info about a randomly selected pokemon.",
+            "shortDescription": "A Pokemon guessing game built with React & TypeScript.  The project is still under construction, but future plans include integrating ChatGPT for a more engaging user experience.",
             "description" : [
-                "A fun exercise in creating a game for my nephews",
-                "Makes use of the of the free PokeAPI: https://pokeapi.co/"
+                "A Pokemon guessing game built built with React & TypeScript, and deployed to GitHub Pages",
+                "Retrieves data by consuming the RESTful API PokeAPI (https://pokeapi.co)",
+                "Interacts with the API by using the 'pokenode-ts' node module, built with predefined types and auto-caching",
+                "Future plans include integrating with AI (like ChatGPT) for a more interactive experience"
             ],
             "skills" : [
                 "React",
-                "TypeScript"
+                "TypeScript",
+                "GitHub Pages"
             ]
         },
         {
@@ -139,15 +142,15 @@
             "siteLink" : "https://jasstsg.github.io/jasstsg/",
             "dateStarted" : "Oct 2024",
             "imageName": "MySite.png",
-            "shortDescription": "The site you are on right now!  It serves as both my resume and portfolio.  Thank you for taking an interest in me!",
+            "shortDescription": "The site you are on right now!  It is built with React & TypeScript and serves as both my resume and portfolio.  Thank you for taking an interest in me!",
             "description" : [
-                "Personal website, designed and developed using React.js and TypeScript",
-                "Hosted and deployed the website on GitHub Pages for seamless updates",
-                "Showcases hobby projects and technical skills with a clean, simple design"
+                "My personal website, built with React & TypeScript, and deployed to GitHub Pages", 
+                "Both a resume and portfolio showcasing my work experience, personal projects, and technical skills"
             ],
             "skills" : [
                 "React",
-                "TypeScript"
+                "TypeScript",
+                "GitHub Pages"
             ]
         },
         {
@@ -158,14 +161,16 @@
             "siteLink" : "https://thetalltankard.github.io/",
             "dateStarted" : "Dec 2022",
             "imageName": "TheTallTankard.png",
-            "shortDescription": "Originally intended to replace my ASP.NET Core app of a similar name.  Instead hosts dice roller and ability score tools.  Also a search bar that one day I'll get around to implementing.",
+            "shortDescription": "A React app meant to replace an earlier .NET Core app of a similar name, it instead hosts D&D 5E tools like a dice roller and ability score calculator.  Includes a planned search bar for searching D&D 5E SRD content.",
             "description" : [
-                "A react app that I had hoped would replace my older ASP.NET Core project with a similar name",
-                "Features a couple of pages with tools for D&D 5th edition"
+                "A React app that hosts D&D 5E tools, originally intended to replace a more complex .NET Core application",
+                "Implemented tools for rolling dice and calculating ability scores, supplementing gameplay and character creation",
+                "Future plans include having the search bar retrieve freely accessible informaiton of the D&D 5E SRD"
             ],
             "skills" : [
                 "React",
-                "JavaScript"
+                "JavaScript",
+                "GitHub Pages"
             ]
         },
         {
@@ -174,11 +179,11 @@
             "githubLink" : "https://github.com/MooseLight/mortgage",
             "dateStarted" : "Mar 2020",
             "imageName": "CalculatorsForLife.png",
-            "shortDescription": "A short-term project a friend and I worked on.  The idea was to build a financial app that hosted different kinds of calculators with clear and simple tables, visualisations, and UI.",
+            "shortDescription": "A financial calculator app built using HTML, JavaScript, and Bootstrap, featuring mortgage payment calculations displayed a table or with visualizations built using Chart.js.",
             "description" : [
-                "A simple single page application for calculating mortgage payments",
-                "Made using HTML, Javascript, Bootstrap, and Chart.js",
-                "Displays payment information over the entire amortization period"
+                "An application for mortgage payment calculations with a clean and intuitive user interface",
+                "Used Chart.js to display clear visualizations of loan payment information over the entire amortization period",
+                "Future plans include adding more calculators, loan comparisons, and custom additional payments"
             ],
             "skills" : [
                 "HTML",
@@ -193,13 +198,15 @@
             "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",
             "dateStarted" : "Mar 2019",
             "imageName": "TheTallTankardTavern.png",
-            "shortDescription": "An ASP.NET Core MVC app that I use to run my D&D sessions.  My players can view and update their characters from the comfort of their home, while I manage everything I need all in one place.",
+            "shortDescription": "A .NET Core MVC app to manage data for a D&D 5E campaign, allowing remote access for players to track character progress. Hosted on IIS for real-time updates and seamless data management.",
             "description" : [
-                "An ASP.NET Core 3.1 MVC app to manage a variety of data for my D&D 5th Edition campaign",
-                "Hosted in IIS with remote access for players to track their character data from home"
+                "A .NET Core MVC app for managing character data, items, combat, and more",
+                "Utilizes AJAX to make small updates for live events like changes in HP, spell slots, or money held by a character", 
+                "Hosted on IIS, providing players with remote access to view and update their character data in real-time",
+                "Future plans include rebuilding this application with .NET Core or Node.js for the back-end, and Next.js with TypeScript for the front-end"
             ],
             "skills" : [
-                "ASP.NET",
+                ".NET Core",
                 "JavaScript"
             ]
         },
@@ -209,13 +216,12 @@
             "githubLink" : "https://github.com/PG188/ModernMobility",
             "dateStarted" : "Mar 2019",
             "imageName": "ModernMobility.png",
-            "shortDescription": "McMaster Mechatronics Engineering capstone project.  Intended to provide better support for those use walkers to aid them when getting around.",
+            "shortDescription": "McMaster Mechatronics Engineering capstone project, an assistive walker for those who need them.  This project used OpenCV to detect ArUco markers for navigation, Arduinos with PID control to actuate the wheel motors, and socket programming for Bluetooth and Ethernet communication.",
             "description" : [
-                "Assistive walker with autonomous navigation and manual driving aid.  My contributions are listed below",
-                "Computed position using reference frame transformation and triangulation",
-                "Used OpenCV in Python for detecting ArUco markers used for positioning and navigation",
-                "PID Control of wheel motors using Arduino boards",
-                "Assisted with socket programming for Bluetooth and Ethernet connections"
+                "Assistive walker with autonomous navigation",
+                "Utilized OpenCV and ArUco marker detection in Python on a raspberry pi, for positioning and autonomous navigation.",
+                "Implemented PID control for wheel motors using Arduino",
+                "Socket programming for Bluetooth (between RPi and mobile app) and Ethernet (between Rpi and Arduinos) communication"
             ],
             "skills" : [
                 "Python",
