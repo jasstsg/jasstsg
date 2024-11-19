@@ -20,6 +20,7 @@ export interface ProjectProps extends ExperienceProps {
     hideFromResume?: boolean,
     shortDescription?: string,
     imageName?: string
+    featured?: boolean
 }
 
 export interface InterestsProps {

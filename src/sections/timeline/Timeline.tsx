@@ -7,7 +7,6 @@ import { WorkOrSchoolProps } from '../../components/resume/interfaces';
 import Pill from '../../components/pill/Pill';
 import { getCSSVariable } from '../../helpers/styleHelper';
 import { TimelineElementProps } from '../../components/timeline/interfaces';
-import Hero from '../hero/Hero';
 
 function Timeline(props: any) {
 
@@ -20,7 +19,7 @@ function Timeline(props: any) {
   return (
     <section id="timeline">
       <div className="timeline-container">
-        <Hero></Hero>
+      <h2>My work experience</h2>
         <VerticalTimeline lineColor={getCSSVariable("--foreground1")}>
           <div className="sitecore sub-timeline">
             {

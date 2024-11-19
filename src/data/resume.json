@@ -121,7 +121,7 @@
             "siteLink" : "https://jasstsg.github.io/pokeguesser/",
             "dateStarted" : "Oct 2024",
             "imageName": "PokeGuesser.png",
-            "shortDescription": "A fun React app project that is intended to be a guessing game for my nephews.  This is still a work in progress.",
+            "shortDescription": "A fun React app project that is intended to be a guessing game for my nephews.  This is still a work in progress, right now it just provides info about a randomly selected pokemon.",
             "description" : [
                 "A fun exercise in creating a game for my nephews",
                 "Makes use of the of the free PokeAPI: https://pokeapi.co/"
@@ -132,13 +132,14 @@
             ]
         },
         {
+            "featured": true,
             "hideFromResume": false,
             "title" : "jasst.github.io/jasstsg",
             "githubLink" : "https://github.com/jasstsg/jasstsg",
             "siteLink" : "https://jasstsg.github.io/jasstsg/",
             "dateStarted" : "Oct 2024",
             "imageName": "MySite.png",
-            "shortDescription": "The site you are on right now!  It serves as both my resume and portfolio.  Thank you for taking an interest in me.",
+            "shortDescription": "The site you are on right now!  It serves as both my resume and portfolio.  Thank you for taking an interest in me!",
             "description" : [
                 "Personal website, designed and developed using React.js and TypeScript",
                 "Hosted and deployed the website on GitHub Pages for seamless updates",
@@ -150,13 +151,14 @@
             ]
         },
         {
+            "featured": true,
             "hideFromResume": true,
             "title" : "TheTallTankard",
             "githubLink" : "https://github.com/TheTallTankard/thetalltankard.github.io",
             "siteLink" : "https://thetalltankard.github.io/",
             "dateStarted" : "Dec 2022",
             "imageName": "TheTallTankard.png",
-            "shortDescription": "Originally intended to replace my ASP.NET Core app of a similar name.  This instead hosts a couple of tools and a search bar that one day I'll get around to implementing.",
+            "shortDescription": "Originally intended to replace my ASP.NET Core app of a similar name.  Instead hosts dice roller and ability score tools.  Also a search bar that one day I'll get around to implementing.",
             "description" : [
                 "A react app that I had hoped would replace my older ASP.NET Core project with a similar name",
                 "Features a couple of pages with tools for D&D 5th edition"
@@ -185,6 +187,7 @@
             ]
         },
         {
+            "featured": true,
             "hideFromResume": false,
             "title" : "TheTallTankardTavern",
             "githubLink" : "https://github.com/jasstsg/TheTallTankardTavern",

@@ -44,7 +44,6 @@ section#resume {
 
         h1 {
             font-size: 4rem;
-            color: var(--highlight);
             margin: 0;
         }
 
@@ -59,6 +58,11 @@ section#resume {
     }
 
     .body {
+
+        a:hover {
+            color: var(--highlight);
+            font-weight: bold;
+        }
 
         h1 {
             background: linear-gradient(90deg,

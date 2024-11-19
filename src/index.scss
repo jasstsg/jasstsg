@@ -13,7 +13,7 @@
 
   --highlight: var(--red);
   --link: var(--red-light);
-  --link-hover: var(--red);
+  --link-hover: var(--white);
   --foreground1: var(--absolute-black);
   --foreground2: var(--cream);
   --background1: var(--white);
@@ -81,13 +81,21 @@ body {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 h2 {
-  color: var(--highlight)
+  font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
 
 a {
   color: var(--link);

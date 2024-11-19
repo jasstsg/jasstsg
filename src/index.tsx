@@ -6,18 +6,18 @@ import reportWebVitals from './reportWebVitals';
 import { createHashRouter, RouteObject, RouterProvider } from 'react-router-dom';
 import Resume from './sections/resume/Resume';
 import Error from './Error';
-import Timeline from './sections/timeline/Timeline';
 import Projects from './sections/projects/Projects';
+import Home from './sections/home/Home';
 
 const routes: RouteObject[] = [
   {
     path: "/",
-    element: <App><Timeline/></App>,
+    element: <App><Home/></App>,
     errorElement: <Error></Error>
   }, 
   {
     path: "/projects",
-    element: <App><Projects/></App>,
+    element: <App><Projects heading="My Projects" /></App>,
     errorElement: <Error></Error>
   },
   {

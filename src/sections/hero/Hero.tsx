@@ -4,12 +4,14 @@ import './hero.scss';
 function Hero(props: any){
     const sequence: any[] = [
         "Tyler", 2000,
-        "a web developer", 5000,
+        "a .NET developer", 5000,
+        "a ReactJS developer", 5000,
+        "a dungeon master", 5000,
         "excited about learning", 5000,
         "a casual guitar player", 5000,
+        "trying to learn Godot Engine", 5000,
         "a dog owner", 5000, 
         "a husband", 5000,
-        "a dungeon master", 5000,
         "a gamer", 5000,
         "Tyler", 3000,
     ];
@@ -23,7 +25,9 @@ function Hero(props: any){
                     cursor={false}/>
                     !
             </h1>
-            <h2>Its still under construction, but while you're here, please have a look around!</h2>
+            <div className="blurb">
+                This site is still a work in progress, but while you're here, please have a look around!
+            </div>
         </section>
     )
 }
