@@ -1,11 +1,11 @@
 import { GITHUB_URL } from "../../helpers/constants";
-import Pill from "../pill/Pill";
-import { ProjectProps } from "./interfaces";
+import Pill from "../../components/pill/Pill";
+import { ProjectProps } from "../../components/resume/interfaces";
 
-function Project(props: {props: ProjectProps}){
+function ProjectDetails(props: {props: ProjectProps}){
     const record = props.props;
     return (
-        <div className="record">
+        <div className="record project-details">
             <h2>{record.title}</h2>
             
             { record.siteLink && (
@@ -40,4 +40,4 @@ function Project(props: {props: ProjectProps}){
     )
 }
 
-export default Project;
+export default ProjectDetails;

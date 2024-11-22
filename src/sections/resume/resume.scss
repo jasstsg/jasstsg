@@ -1,3 +1,5 @@
+@import '../../components/pill/pill.scss';
+
 section#resume {
     background-color: var(--absolute-white);
 
@@ -87,6 +89,7 @@ section#resume {
         #see-more-projects {
             font-style: italic;
             font-weight: bold;
+            padding-top: 1rem;
             padding-bottom: 1rem;
         }
     }
@@ -105,14 +108,6 @@ section#resume {
     }
 
     .pill {
-        border-radius: 500px;
-        border-style: solid;
-        border-width: 2px;
-        border-color: var(--absolute-white);
-        background-color: var(--red);
-        color: var(--absolute-white);
-        padding: 3px 12px;
-        margin: 0 5px;
-        font-weight: 500;
+        @extend .pill-light;
     }
 }

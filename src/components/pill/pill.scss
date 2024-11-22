@@ -1,0 +1,23 @@
+.pill-light {
+    border-color: var(--absolute-white);
+    background-color: var(--red);
+    color: var(--absolute-white);
+}
+
+.pill-dark {
+    border-color: var(--foreground2);
+    background-color: var(--highlight);
+    color: var(--foreground2);
+}
+
+.pill {
+    border-radius: 500px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 3px 12px;
+    margin: 3px;
+    font-weight: 500;
+    width: fit-content;
+    align-content: center;
+    text-align: center;
+}

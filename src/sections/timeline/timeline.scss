@@ -1,3 +1,5 @@
+@import '../../components/pill/pill.scss';
+
 section#timeline {
     background-color: var(--background1);
     padding: 3rem 0;
@@ -104,18 +106,8 @@ section#timeline {
     }
 
     .pill {
-        border-radius: 500px;
-        border-style: solid;
-        border-width: 1px;
-        border-color: var(--foreground2);
-        background-color: var(--highlight);
-        color: var(--foreground2);
-        padding: 3px 12px;
-        margin: 3px;
+        @extend .pill-dark;
         font-size: 0.8rem;
-        font-weight: 500;
-        width: fit-content;
-        align-content: center;
-        text-align: center;
+        border-width: 1px;
     }
 }

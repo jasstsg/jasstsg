@@ -1,9 +1,10 @@
 import { ProjectProps, WorkOrSchoolProps } from '../../components/resume/interfaces';
-import Project from '../../components/resume/Project';
+import ProjectDetails from '../projects/ProjectDetails';
 import WorkOrSchool from '../../components/resume/WorkOrSchool';
 import resumeData from '../../data/resume.json';
 import './resume.scss';
 import './resume.grid.scss';
+import '../../components/pill/pill.scss';
 import IconText from '../../components/IconText/IconText';
 import IconTextLink from '../../components/IconText/IconTextLink';
 import { useRef } from 'react';
@@ -81,7 +82,7 @@ function Resume(props: any) {
                     <h1>Projects</h1>
                     {
                         projects.filter(p => !p.hideFromResume)
-                            .map(p => ( <Project key={p.title} props={p} /> ))
+                            .map(p => ( <ProjectDetails key={p.title} props={p} /> ))
                     }
                     <div id="see-more-projects">
                         Find more of my projects:&nbsp;
