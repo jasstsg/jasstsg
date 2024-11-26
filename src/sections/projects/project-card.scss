@@ -18,6 +18,11 @@ section.project-card {
         padding: 2rem;
         transform: rotateY(180deg);
         align-content: center;
+
+        a:hover {
+            color: var(--link);
+            font-weight: bold;
+        }
     }
 
     &.flipped {
